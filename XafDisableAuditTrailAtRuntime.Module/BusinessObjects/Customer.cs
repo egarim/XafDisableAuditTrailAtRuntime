@@ -43,12 +43,16 @@ namespace XafDisableAuditTrailAtRuntime.Module.BusinessObjects
             set => SetPropertyValue(nameof(Name), ref name, value);
         }
 
-        
+
         [Size(SizeAttribute.DefaultStringMappingFieldSize)]
         public string Phone
         {
             get => phone;
             set => SetPropertyValue(nameof(Phone), ref phone, value);
         }
+
+        
+      
+     
     }
 }
