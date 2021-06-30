@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDisableAuditTrailAtRuntime.Module", "XafDisableAuditTrailAtRuntime.Module\XafDisableAuditTrailAtRuntime.Module.csproj", "{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDisableAuditTrailAtRuntime.Module.Web", "XafDisableAuditTrailAtRuntime.Module.Web\XafDisableAuditTrailAtRuntime.Module.Web.csproj", "{F78AD59A-9B5F-4A17-894B-55857D06F55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDisableAuditTrailAtRuntime.Web", "XafDisableAuditTrailAtRuntime.Web\XafDisableAuditTrailAtRuntime.Web.csproj", "{7A956A1A-CEB5-403A-BB90-96CB1077D924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDisableAuditTrailAtRuntime.Module.Win", "XafDisableAuditTrailAtRuntime.Module.Win\XafDisableAuditTrailAtRuntime.Module.Win.csproj", "{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XafDisableAuditTrailAtRuntime.Win", "XafDisableAuditTrailAtRuntime.Win\XafDisableAuditTrailAtRuntime.Win.csproj", "{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E25935B-BA37-41FA-AE6B-1E037E29C1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78AD59A-9B5F-4A17-894B-55857D06F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A956A1A-CEB5-403A-BB90-96CB1077D924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C773E2C4-4601-4F1D-9938-9EEF9EF7F251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E3D9A1-CFED-4B1D-A324-2688DD6AC2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {889B3D84-B48E-4947-8F08-9E363147F012}
+	EndGlobalSection
+EndGlobal
